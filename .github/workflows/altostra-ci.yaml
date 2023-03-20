@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: Set node version
         uses: actions/checkout@v3
-        with:
-          node-version: '16.x'
       - name: Install Altostra CLI
         run: |
              npm install -g @altostra/cli
