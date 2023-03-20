@@ -1,11 +1,4 @@
-# GPT-3 App Template
-
-An Altostra template for a web application that let users send prompts to one of the GPT-3 textual models.
-
-## Template content
-
-An Altostra template to create projects that can be deployed with a serverless web application
-that features a simple web UI for users to send prompts to a preselected OpenAI GPT-3 model.
+# CoverLetterAI 
 
 The infrastructure is managed using Amazon Web Services (AWS) and includes:
 
