@@ -25,7 +25,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run : npm init -w packages/a   
     - run : npm install -g @altostra/cli
              alto --version
              alto api-key set ${{ secrets.ALTO_API_KEY }}
