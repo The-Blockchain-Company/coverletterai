@@ -28,5 +28,5 @@ jobs:
     - run : npm install -g @altostra/cli 
     - run : alto --version
     - run : alto api-key set ${{ secrets.ALTO_API_KEY }}
-    - run:  alto push 
+    - run:  alto push v$(node -p -e "require('./package.json').version") --json 
 
